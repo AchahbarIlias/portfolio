@@ -32,7 +32,34 @@
     <section class="mx-4 text-center mt-40 flex-col justify-center">
       <h1 class="mt-2 text-5xl sm:text-7xl text-textgreyish">Career</h1>
       <p class="mt-2 text-lg text-textpurple">Timeline of studying</p>
-      <div class="mt-4 mx-auto h-40 w-2 bg-backgroundpurple"></div>
+      
+      <div class="mx-auto justify-center mt-20 flex flex-col lg:flex-row ">
+
+      <div class="mx-auto text-center lg:mx-0 lg:mt-6 h-8 w-40 bg-backgroundpurple rounded-xl">
+        <p class="text-2xl text-white">2016</p>
+      </div>
+
+      <div class="lg:mx-9 mx-auto h-20 w-2 bg-backgroundpurple transform lg:rotate-90"></div>
+
+      <div class="sm:w-80 lg:mx-0 mx-auto bg-backgroundpurple w-auto h-auto p-4 rounded-2xl	">
+        <p class="mt-2 text-2xl text-white">Network and IT</p>
+        <p class="mt-2 text-lg text-white">COLOMAplus</p>
+      </div>
+
+      <div class="lg:mx-9 mx-auto h-20 w-2 bg-backgroundpurple transform lg:rotate-90"></div>
+
+      <div class="mx-auto text-center lg:mx-0 lg:mt-6 h-8 w-40 bg-backgroundpurple rounded-xl">
+        <p class="text-2xl text-white">2018</p>
+      </div>
+
+      <div class="lg:mx-9 mx-auto h-20 w-2 bg-backgroundpurple transform lg:rotate-90"></div>
+
+      <div class="sm:w-80 lg:mx-0 mx-auto bg-backgroundpurple w-auto h-auto p-4 rounded-2xl	">
+        <p class="mt-2 text-2xl text-white">Applied Computer Science</p>
+        <p class="mt-2 text-md text-white">(Software Development)</p>
+        <p class="mt-2 text-lg text-white">UC Leuven-Limburg</p>
+      </div>
+</div>
     </section>
 
   </main>

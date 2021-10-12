@@ -59,7 +59,45 @@
         <p class="mt-2 text-md text-white">(Software Development)</p>
         <p class="mt-2 text-lg text-white">UC Leuven-Limburg</p>
       </div>
-</div>
+
+      <div class="lg:mx-9 mx-auto h-20 w-2 bg-backgroundpurple transform lg:rotate-90"></div>
+
+      <div class="mx-auto text-center lg:mx-0 lg:mt-6 h-8 w-40 bg-backgroundpurple rounded-xl">
+        <p class="text-2xl text-white">Now</p>
+      </div>
+    </div>
+    </section>
+
+    <section class="mx-4 text-center mt-40 flex-col justify-center">
+      <h1 class="mt-2 text-5xl sm:text-7xl text-textgreyish">Skills</h1>
+      <p class="mt-2 text-lg text-textpurple">...</p>
+      <div class="grid gap-4 grid-cols-2 justify-center mt-20 ">
+
+        <div class="h-auto w-auto border-8 border-jsyellow p-4">
+          <img class="h-20 mx-auto" src="../assets/javascript-logo.png" alt="">
+          <h2 class="text-white">JavaScript</h2>
+        </div>
+
+        <div class="h-auto w-auto border-8 border-javared p-4">
+          <img class="h-20 mx-auto" src="../assets/java-logo.png" alt="">
+          <h2 class="text-white">Java</h2>
+        </div>
+
+        <div class="h-auto w-auto border-8 border-csharppurple p-4">
+          <img class="h-20 mx-auto" src="../assets/csharp.svg" alt="">
+          <h2 class="text-white">C#</h2>
+        </div>
+
+        <div class="h-auto w-auto border-8 border-phppurple p-4">
+          <img class="h-20 mx-auto" src="../assets/php-logo.png" alt="">
+          <h2 class="text-white">PHP</h2>
+        </div>
+
+        <div class="h-auto w-auto border-8 border-cplusplusblue p-4">
+          <img class="h-20 mx-auto" src="../assets/cplusplus-logo.png" alt="">
+          <h2 class="text-white">C++</h2>
+        </div>
+      </div>
     </section>
 
   </main>

@@ -15,6 +15,11 @@ module.exports = {
     borderColor: theme => ({
       ...theme('colors'),
       'borderpurple': '#682ae9',
+      'jsyellow': '#F7E018',
+      'javared': '#D12C52',
+      'csharppurple': '#9A4993',
+      'phppurple': "#787CB4",
+      'cplusplusblue': '#659BD3'
      })
   },
   variants: {

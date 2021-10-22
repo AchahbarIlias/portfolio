@@ -7,19 +7,19 @@
     </section>
 
       <section class="text-center mt-40 flex-col justify-center bg-backgroundlightdark py-4 ">
-      <h1 class="mt-2 text-5xl sm:text-7xl text-white">Life</h1>
+      <h1 class="mt-2 text-5xl sm:text-7xl text-white" ref="life">Life</h1>
       <p class="mt-2 text-lg text-textpurple">...</p>
 
 
 
 
-<div class="grid grid-cols-2">
-      <div class="mt-20 p-6 mx-6 md:text-lg font-semibold">
-        <div class="bg-backgroundpurple mt-10 mx-8 text-white font-extrabold">
+<div class="grid md:grid-cols-2">
+      <div class="mt-4 p-6 md:mx-6 md:text-lg font-semibold">
+        <div class="bg-backgroundpurple mx-8 text-white font-extrabold">
           <h2>#- - - Biography - - -#</h2>
         </div>
 
-        <div class="text-white mt-20">
+        <div class="text-white mt-10 md:mt-20">
           <p>Student in Leuven who lives in Mechelen, Belgium. I am in my graduation year at the UCLL studying Applied Information Technology.</p>
           <p class="mt-2">Currently fascinated by web development and all things around it.</p>
         </div>
@@ -32,7 +32,7 @@
 
     </section>
 
-    <section class="text-center mt-40 flex-col justify-center bg-backgroundlightdark py-4 ">
+    <section class="text-center mt-40 flex-col justify-center bg-backgroundlightdark py-4">
       <h1 class="mt-2 text-5xl sm:text-7xl text-white">Work Experience</h1>
       <p class="mt-2 text-lg text-textpurple">...</p>
 
@@ -41,10 +41,12 @@
   <div class="m-auto">
     <img class="mx-auto w-4/5" src="../assets/work.svg" alt="">
   </div>
-      <div class="grid gap-4 justify-center mt-4 mx-6">
-      <div class="bg-backgroundpurple text-white font-extrabold">
+  <div>
+<div class="bg-backgroundpurple mx-6 mt-10 text-white font-extrabold">
         <h2>#- - - Jobs - - -#</h2>
       </div>
+
+      <div class="grid gap-4 md:grid-cols-2 justify-center mt-4 mx-6">
         <div class="h-auto w-auto p-4 bg-white font-semibold">
           <img class="mx-auto" src="../assets/emmaus.png" alt="">
           <h2 class="px-4">Intern • IT Department • Emmaüs vzw</h2>
@@ -59,7 +61,7 @@
           <img class="mx-auto" src="../assets/maarten.png" alt="">
           <h2 class="px-4">Cleaner • Cleaning Department • Sint-Maarten Mechelen</h2>
         </div>
-
+  </div>
       </div>
       </div>
     </section>
@@ -76,14 +78,14 @@
         <h2># Programming Languages #</h2>
       </div>
 
-      <div class="grid gap-4 md:grid-cols-2 justify-center mt-10 mx-8 font-semibold">
+      <div class="grid gap-4 md:grid-cols-4 justify-center mt-10 mx-8 font-semibold">
 
         <div class="h-auto w-auto border-b-8 border-jsyellow p-4">
           <img class="h-20 mx-auto" src="../assets/javascript-logo.png" alt="">
           <h2 class="text-white">JavaScript</h2>
           <div class="text-textpurple">
             <ul>
-              <li>NodeJs</li>
+              <li>NodeJS</li>
               <li>VueJS</li>
               <li>Express</li>
             </ul>
@@ -173,24 +175,32 @@
 
 
 
-				<div class="grid sm:grid-cols-4 mx-20 justify-center gap-20">
-					<div class="h-auto w-auto border-b-8 border-white p-4">
-						<h2 class="text-xl sm:text-2xl">Computer Electronics Webshop</h2>
-						<p>Complete webshop build with HTML, CSS and PHP</p>
-					</div>
-					<div class="h-auto w-auto border-b-8 border-white p-4">
-						<h2 class="text-xl sm:text-2xl">Payment System</h2>
-						<p>A payment system for a store build with all the programming principles in JAVA</p>
-					</div>
-					<div class="h-auto w-auto border-b-8 border-white p-4">
-						<h2 class="text-xl sm:text-2xl">Gomoku Game</h2>
-						<p>A small game made in C# using WPF</p>
-					</div>
-					<div class="h-auto w-auto border-b-8 border-white p-4">
-						<h2 class="text-xl sm:text-2xl">Online Animal Shelter with Webshop</h2>
-						<p>Complete website made with the Phoenix framework using Elixir</p>
-					</div>
-				</div>
+<div class="grid sm:grid-cols-4 mx-20 justify-center gap-20">
+          <div class="h-auto w-auto border-b-8 border-white p-3">
+            <h2 class="text-xl sm:text-2xl text-white">Computer Electronics Webshop</h2>
+            <p class="text-textpurple">Complete webshop build with HTML, CSS and PHP</p>
+            </div>
+          <div class="h-auto w-auto border-b-8 border-white p-3">
+            <h2 class="text-xl sm:text-2xl text-white">Payment System</h2>
+            <p class="text-textpurple">A payment system for a store build with all the programming principles in JAVA</p>
+            </div>
+          <div class="h-auto w-auto border-b-8 border-white p-3">
+            <h2 class="text-xl sm:text-2xl text-white">Gomoku Game</h2>
+            <p class="text-textpurple">A small game made in C# using WPF</p>
+            </div>
+          <div class="h-auto w-auto border-b-8 border-white p-3">
+            <h2 class="text-xl sm:text-2xl text-white">Online Animal Shelter with Webshop</h2>
+            <p class="text-textpurple">Complete website made with the Phoenix framework using Elixir</p>
+            </div>
+          <div class="h-auto w-auto border-b-8 border-white p-3">
+              <h2 class="text-xl sm:text-2xl text-white">Discord bot</h2>
+            <p class="text-textpurple">Discord bot with small mining game. Made with Javascript, DiscordJS, NodeJS, MySQL</p>
+            </div>
+            <div class="h-auto w-auto border-b-8 border-white p-3">
+              <h2 class="text-xl sm:text-2xl text-white">Expirimental Projects ...</h2>
+            <p class="text-textpurple">Couple of non-finished projects using the following stacks: MEVN or Vue/Spring/PostGresSQL</p>
+            </div>
+</div>
 	
     </section>
     
@@ -200,8 +210,18 @@
 
 <script>
 export default {
-  name: 'Hero',
+  methods: {
+    goto(refName) {
+      var element = this.$refs[refName];
+      console.log(element);
+      var top = element.offsetTop;
+      
+      window.scrollTo(0, top);
+    }
+  }
 }
+
+
 </script>
 
 

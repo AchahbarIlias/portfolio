@@ -4,17 +4,18 @@ module.exports = {
   theme: {
     backgroundColor: theme => ({
      ...theme('colors'),
-     'backgrounddark': '#0e1212',
-     'backgroundpurple': '#A78BFA',
+     'backgrounddark': '#FF4655',
+     'backgroundpurple': '#FF4655',
+     'backgroundlightdark': '#0F1923'
     }),
     textColor: theme => ({
       ...theme('colors'),
       'textpurple': '#A78BFA',
-      'textgreyish': '#dbdbdb',
+      'textgreyish': '#000000',
     }),
     borderColor: theme => ({
       ...theme('colors'),
-      'borderpurple': '#A78BFA',
+      'borderpurple': '#FF4655',
       'jsyellow': '#F7E018',
       'javared': '#D12C52',
       'csharppurple': '#9A4993',
